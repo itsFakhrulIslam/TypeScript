@@ -8,3 +8,6 @@ extension
 3. pretty typescript errors
 
 setup for typescript journey
+1. create a file with .ts extension
+2. setup ts config file by(tsc --init)
+3. watching mode on .ts file (tsc --watch)
