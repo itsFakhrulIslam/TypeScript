@@ -11,3 +11,20 @@ setup for typescript journey
 1. create a file with .ts extension
 2. setup ts config file by(tsc --init)
 3. watching mode on .ts file (tsc --watch)
+
+
+basic types
+1. primitive types(number, string, boolean)
+2. array
+3. tuples
+4. enums
+5. any, unknown, void, null, undefined, never
+
+explanation primitive vs reference
+primitive
+1. number (12, 14.5, 1343543)
+2. character = a b c d e f g 
+3. string  = abcdefg
+4. boolean = true, false
+
+reference () {} []
