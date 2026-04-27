@@ -1,0 +1,10 @@
+tools
+1. vscode
+2. nodejs
+
+extension
+1. javascript and typescript nightly
+2. prettier es lint
+3. pretty typescript errors
+
+setup for typescript journey
