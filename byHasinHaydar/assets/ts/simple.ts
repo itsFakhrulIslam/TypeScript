@@ -2,10 +2,10 @@ const myName = "miraj";
 console.log(myName);
 
 // normal func
-function name(params: string) {
+function names(params: string) {
   console.log(params);
 }
-name("fakhrul islam");
+names("fakhrul islam");
 // name(123) //its bad practice
 
 // return func

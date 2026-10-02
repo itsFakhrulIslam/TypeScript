@@ -1,5 +1,5 @@
-const name: string = "fakhrul islam miraj";
-console.log(name);
+const nam: string = "fakhrul islam miraj";
+console.log(nam);
 
 const age: number = 24;
 console.log(age);

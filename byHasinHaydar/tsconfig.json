@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
-    "target": "esnext"
+    "target": "esnext",
+    "outDir": "D:/learnTypescript/TypeScript/byHasinHaydar/assets/js",
+    "rootDir": "D:/learnTypescript/TypeScript/byHasinHaydar/assets/ts"
   }
 }
