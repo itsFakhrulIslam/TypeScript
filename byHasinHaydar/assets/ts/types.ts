@@ -14,7 +14,7 @@ const ages: number[] = [12, 45, 65, 75];
 console.log(ages);
 
 const mySelf = {
-  name,
+  nam,
   age,
   fruits,
   heIsMale,
