@@ -10,7 +10,7 @@ console.log(fruits);
 const ages = [12, 45, 65, 75];
 console.log(ages);
 const mySelf = {
-    name,
+    nam,
     age,
     fruits,
     heIsMale,
