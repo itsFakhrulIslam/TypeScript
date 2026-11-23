@@ -46,4 +46,17 @@ console.log(currentUser.name); //print single info after modify
 let status = "idle";
 // let status: ApiStatus = "failed"; // Error! কারণ এটি অনুমোদিত Literal মানগুলোর মধ্যে নেই
 console.log(status);
+const product1 = {
+    id: 1,
+    title: "product title",
+    description: "this is product description",
+    price: 120,
+    isStock: true,
+    getDiscountedPrice(discountedParcent) {
+        return this.price - (this.price * discountedParcent) / 100;
+    },
+};
+console.log(product1);
+const discountedParcentResult = product1.getDiscountedPrice(10);
+console.log(discountedParcentResult);
 //# sourceMappingURL=day1.js.map

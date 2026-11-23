@@ -69,3 +69,27 @@ type ApiStatus = "idle" | "loading" | "success" | "error";
 let status: ApiStatus = "idle";
 // let status: ApiStatus = "failed"; // Error! কারণ এটি অনুমোদিত Literal মানগুলোর মধ্যে নেই
 console.log(status);
+
+//todo: practice
+interface Product {
+  id: number;
+  title: string;
+  description: string;
+  price: number;
+  isStock: boolean;
+  getDiscountedPrice(discountedParcent: number): number;
+}
+
+const product1: Product = {
+  id: 1,
+  title: "product title",
+  description: "this is product description",
+  price: 120,
+  isStock: true,
+  getDiscountedPrice(discountedParcent: number) {
+    return this.price - (this.price * discountedParcent) / 100;
+  },
+};
+console.log(product1);
+const discountedParcentResult = product1.getDiscountedPrice(10)
+console.log(discountedParcentResult)
