@@ -32,4 +32,16 @@ function greet(name, greeting = "Hello") {
 }
 const greetResult = greet("Miraj");
 console.log(greetResult);
+const currentUser = {
+    id: 1,
+    name: "Nadia",
+    role: "admin",
+};
+console.log(currentUser); //print all info
+console.log(currentUser.name); //print single info
+console.log(currentUser.role); //print single info
+// modify the data
+currentUser.name = 'miraj';
+console.log(currentUser.name); //print single info after modify
+// currentUser.role = "user"; // Error! কারণ এটি readonly
 //# sourceMappingURL=day1.js.map

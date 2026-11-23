@@ -37,3 +37,25 @@ function greet(name: string, greeting: string = "Hello"): string {
 }
 const greetResult = greet("Miraj");
 console.log(greetResult);
+
+//! part 3
+interface User {
+  id: number;
+  name: string;
+  email?: string; // Optional property
+  readonly role: "admin" | "user"; // Union + Readonly
+}
+
+const currentUser: User = {
+  id: 1,
+  name: "Nadia",
+  role: "admin",
+};
+console.log(currentUser) //print all info
+console.log(currentUser.name) //print single info
+console.log(currentUser.role) //print single info
+
+// modify the data
+currentUser.name = 'miraj'
+console.log(currentUser.name) //print single info after modify
+// currentUser.role = "user"; // Error! কারণ এটি readonly
