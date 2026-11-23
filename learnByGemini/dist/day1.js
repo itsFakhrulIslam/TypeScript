@@ -44,4 +44,6 @@ console.log(currentUser.role); //print single info
 currentUser.name = 'miraj';
 console.log(currentUser.name); //print single info after modify
 // currentUser.role = "user"; // Error! কারণ এটি readonly
+//todo interface: সাধারণত অবজেক্ট বা ক্লাসের স্ট্রাকচার ডিফাইন করতে বেশি ব্যবহৃত হয় (এক্সটেন্ড করা সহজ)।
+//todo type: Union (A | B), Intersection (A & B), Tuple বা Primitive alias-এর জন্য দারুণ কার্যকর।
 //# sourceMappingURL=day1.js.map
