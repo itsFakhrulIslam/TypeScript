@@ -41,9 +41,9 @@ console.log(currentUser); //print all info
 console.log(currentUser.name); //print single info
 console.log(currentUser.role); //print single info
 // modify the data
-currentUser.name = 'miraj';
+currentUser.name = "miraj";
 console.log(currentUser.name); //print single info after modify
-// currentUser.role = "user"; // Error! কারণ এটি readonly
-//todo interface: সাধারণত অবজেক্ট বা ক্লাসের স্ট্রাকচার ডিফাইন করতে বেশি ব্যবহৃত হয় (এক্সটেন্ড করা সহজ)।
-//todo type: Union (A | B), Intersection (A & B), Tuple বা Primitive alias-এর জন্য দারুণ কার্যকর।
+let status = "idle";
+// let status: ApiStatus = "failed"; // Error! কারণ এটি অনুমোদিত Literal মানগুলোর মধ্যে নেই
+console.log(status);
 //# sourceMappingURL=day1.js.map
