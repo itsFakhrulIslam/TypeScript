@@ -1,4 +1,5 @@
 "use strict";
+//! part 1
 // let total = 100;
 // total = "one hundred"; // JS-এ এটা বৈধ, কিন্তু অনেক সময় বড় প্রজেক্টে বাগ আনে
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -19,4 +20,16 @@ let anything = "could be anything";
 console.log(anything);
 anything = 42;
 console.log(anything);
+//! part 2
+function calculateTotal(price, taxRate) {
+    return price + price * taxRate;
+}
+const calculateTotalResult = calculateTotal(1000, 15);
+console.log(calculateTotalResult);
+// Optional parameter (?) এবং Default value
+function greet(name, greeting = "Hello") {
+    return `${greeting}, ${name}!`;
+}
+const greetResult = greet("Miraj");
+console.log(greetResult);
 //# sourceMappingURL=day1.js.map

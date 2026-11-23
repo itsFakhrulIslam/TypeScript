@@ -1,3 +1,4 @@
+//! part 1
 // let total = 100;
 // total = "one hundred"; // JS-এ এটা বৈধ, কিন্তু অনেক সময় বড় প্রজেক্টে বাগ আনে
 
@@ -22,3 +23,17 @@ let anything: any = "could be anything";
 console.log(anything);
 anything = 42;
 console.log(anything);
+
+//! part 2
+function calculateTotal(price: number, taxRate: number): number {
+  return price + price * taxRate;
+}
+const calculateTotalResult = calculateTotal(1000, 15);
+console.log(calculateTotalResult);
+
+// Optional parameter (?) এবং Default value
+function greet(name: string, greeting: string = "Hello"): string {
+  return `${greeting}, ${name}!`;
+}
+const greetResult = greet("Miraj");
+console.log(greetResult);
